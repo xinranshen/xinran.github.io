@@ -27,11 +27,19 @@ h2 a:hover {
   color: rgb(203, 112, 42);
 }
 
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 200px;
+}
+
 img {
   width: 360px;
   float: right;
   padding-top: 140px;
   padding-right: 190px;
+  animation-direction: normal;
 }
 
 nav {
@@ -53,4 +61,22 @@ nav li {
   display: inline-block;
   padding-top: 30px;
   padding-right: 100px;
+}
+p.username {
+  font-weight: bold;
+  font-size: xxx-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p.titles {
+  margin: 40px 0px 0px 150px;
+  font-weight: lighter;
+  font-size: x-large;
+  font-family: "Open Sans", sans-serif;
+}
+p.content {
+  margin: 0px 150px 150px 150px;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
 }
