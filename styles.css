@@ -9,7 +9,7 @@ header {
 
   font-size: 60px;
   color: #2a1e55cd;
-  float: left;
+  position: fixed;
 }
 
 h2 {
@@ -36,10 +36,8 @@ h3 {
 
 img {
   width: 360px;
-  float: right;
-  padding-top: 140px;
-  padding-right: 190px;
-  animation-direction: normal;
+  padding: 130px 300px 100px 850px;
+  position: absolute;
 }
 
 nav {
