@@ -36,6 +36,7 @@ h3 {
 
 img {
   width: 360px;
+
   padding: 130px 300px 100px 850px;
   position: absolute;
 }
@@ -74,6 +75,7 @@ p.titles {
 }
 p.content {
   margin: 0px 150px 150px 150px;
+  border: dashed rgb(202, 245, 212);
   font-weight: lighter;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
