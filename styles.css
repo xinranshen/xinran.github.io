@@ -14,7 +14,6 @@ header {
 
 h2 {
   font-family: "Open Sans", sans-serif;
-
   float: right;
   padding-top: 200px;
   padding-right: 270px;
@@ -36,7 +35,6 @@ h3 {
 
 img {
   width: 360px;
-
   padding: 130px 300px 100px 850px;
   position: absolute;
 }
@@ -79,4 +77,137 @@ p.content {
   font-weight: lighter;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
+}
+
+.earleft {
+  position: absolute;
+  background: rgb(241, 218, 191);
+  border-radius: 50px 0 0 50px;
+  width: 40px;
+  height: 100px;
+  top: 50%;
+  right: 98%;
+  z-index: 103;
+  transform: rotate(-5deg);
+}
+.earright {
+  position: absolute;
+  background: rgb(241, 218, 191);
+  border-radius: 50px 0 0 50px;
+  width: 40px;
+  height: 100px;
+  top: 50%;
+  left: 98%;
+  z-index: 103;
+  transform: rotate(185deg);
+}
+
+.face {
+  position: absolute;
+  background: antiquewhite;
+  border-radius: 160px 160px 200px 200px;
+  width: 360px;
+  height: 440px;
+  top: 10%;
+  right: 51%;
+  z-index: 105;
+}
+.eyebrowleft {
+  position: absolute;
+  background: rgb(168, 121, 85);
+  border-radius: 160px 160px 200px 200px;
+  width: 10px;
+  height: 80px;
+  top: 30%;
+  left: 27%;
+  transform: rotate(90deg);
+  z-index: 101;
+}
+.eyebrowright {
+  position: absolute;
+  background: rgb(168, 121, 85);
+  border-radius: 160px 160px 200px 200px;
+  width: 10px;
+  height: 80px;
+  top: 30%;
+  right: 27%;
+  transform: rotate(90deg);
+  z-index: 101;
+}
+.eyeleft {
+  position: absolute;
+  background: rgb(58, 56, 56);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 45%;
+  left: 26%;
+  z-index: 110;
+}
+
+.eyeright {
+  position: absolute;
+  background: rgb(58, 56, 56);
+  border-radius: 50%;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  top: 45%;
+  right: 26%;
+  z-index: 110;
+}
+
+.nose {
+  position: absolute;
+  background: rgb(241, 201, 178);
+  border-radius: 40%;
+  width: 40px;
+  height: 70px;
+  top: 50%;
+  right: 44%;
+  z-index: 110;
+}
+
+.hair {
+  position: absolute;
+  background: #d6e3f1ea;
+  border-radius: 250px 250px 50px 50px;
+  width: 400px;
+  height: 490px;
+  right: 49.5%;
+  top: 4%;
+  z-index: 100;
+}
+
+.mouth {
+  position: absolute;
+  background: rgb(235, 114, 114);
+  border-radius: 50%;
+  width: 40px;
+  height: 30px;
+  top: 74%;
+  right: 44%;
+}
+
+.bangleft {
+  position: absolute;
+  background: #d6e3f1ea;
+  border-radius: 0px 170px 3px 170px;
+  width: 180px;
+  height: 230px;
+  left: 55%;
+  bottom: 50%;
+  z-index: 100;
+}
+
+.joy {
+  top: 20%;
+  right: 30%;
+}
+.joyphrase {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  top: 40%;
+  right: 30%;
 }
