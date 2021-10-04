@@ -79,6 +79,12 @@ p.content {
   font-family: "Open Sans", sans-serif;
 }
 
+/* z-index learned in https://developer.mozilla.org/zh-CN/docs/Web/CSS/z-index
+border radius learned in https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-radius
+
+
+*/
+
 .earleft {
   position: absolute;
   background: rgb(241, 218, 191);
