@@ -6,7 +6,6 @@ body {
 header {
   padding-top: 250px;
   padding-left: 200px;
-
   font-size: 60px;
   color: #2a1e55cd;
   position: fixed;
@@ -28,7 +27,8 @@ h2 a:hover {
 
 h3 {
   font-family: "Open Sans", sans-serif;
-  font-size: 50px;
+  color: rgb(133, 165, 207, 0.36);
+  font-size: 30px;
   text-align: center;
   padding-top: 200px;
 }
@@ -36,7 +36,7 @@ h3 {
 img {
   width: 360px;
   padding: 130px 300px 100px 850px;
-  position: absolute;
+  position: fixed;
 }
 
 nav {
@@ -45,6 +45,7 @@ nav {
 }
 nav a {
   background-color: #fcfdfe;
+
   color: #535f80;
   text-decoration: none;
   text-transform: uppercase;
@@ -58,6 +59,27 @@ nav li {
   display: inline-block;
   padding-top: 30px;
   padding-right: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/* sticky navbar learned in https://gomakethings.com/how-to-create-a-sticky-navigation-with-only-css 
+mozilla positioning tutorial https://developer.mozilla.org/zh-CN/docs/Web/CSS/position
+*/
+.sticky {
+  background-color: #fcfdfe;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.test {
+  font-size: xx-large;
+  color: saddlebrown;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  top: 0;
+  position: sticky;
 }
 p.username {
   font-weight: bold;
