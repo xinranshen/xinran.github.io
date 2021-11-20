@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  background-color: #fcfdfe;
+  font-family: "Questrial", sans-serif;
+}
+
+.text {
+  font-family: "Lora", serif;
+  font-size: 1em;
+  text-align: left;
+  margin-top: -60%;
+  margin-left: 50%;
+  margin-right: 10%;
+  z-index: 3;
+}
+
+.goblet img {
+  position: absolute;
+  width: 440px;
+  height: 600px;
+
+  top: 10%;
+  left: 30%;
+  z-index: 4;
+}
+
+.cage img {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.mediumtext {
+  margin-top: 4%;
+  margin-left: 50%;
+  font-size: 6em;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(181, 206, 113);
+}
+
+/* fadein effect learned from https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08 */
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+/* these are vendor prefixes that ensure that the code works across different browsers (like between Google Chrome and Mozilla Firefox, for example). */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
